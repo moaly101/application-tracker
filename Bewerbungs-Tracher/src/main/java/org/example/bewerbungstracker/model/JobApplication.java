@@ -1,4 +1,4 @@
-package org.example.bewerbungstracher.model;
+package org.example.bewerbungstracker.model;
 
 
 import jakarta.persistence.*;

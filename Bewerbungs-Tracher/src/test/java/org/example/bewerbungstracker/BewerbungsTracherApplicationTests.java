@@ -1,4 +1,4 @@
-package org.example.bewerbungstracher;
+package org.example.bewerbungstracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

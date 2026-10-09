@@ -1,6 +1,6 @@
-package org.example.bewerbungstracher.repository;
+package org.example.bewerbungstracker.repository;
 
-import org.example.bewerbungstracher.model.JobApplication;
+import org.example.bewerbungstracker.model.JobApplication;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

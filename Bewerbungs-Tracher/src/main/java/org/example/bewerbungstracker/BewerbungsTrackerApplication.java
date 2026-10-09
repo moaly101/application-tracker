@@ -1,13 +1,13 @@
-package org.example.bewerbungstracher;
+package org.example.bewerbungstracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BewerbungsTracherApplication {
+public class BewerbungsTrackerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BewerbungsTracherApplication.class, args);
+        SpringApplication.run(BewerbungsTrackerApplication.class, args);
     }
 
 }
