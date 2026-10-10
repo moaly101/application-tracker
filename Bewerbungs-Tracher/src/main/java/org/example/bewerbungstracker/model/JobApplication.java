@@ -46,6 +46,16 @@ public class JobApplication {
         return value;
     }
 
+    public void updateDetails(String company, String position, ApplicationStatus status,
+                              String jobUrl, LocalDate appliedAt, String notes) {
+        this.company = requireNotBlank(company, "company");
+        this.position = requireNotBlank(position, "position");
+        this.status = Objects.requireNonNull(status, "status must not be null");
+        this.jobUrl = jobUrl;
+        this.appliedAt = appliedAt;
+        this.notes = notes;
+    }
+
     @PrePersist
     void onCreate() {
         createdAt = Instant.now();
